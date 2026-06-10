@@ -36,6 +36,12 @@ body{
     background:#f7f7f7;
 }
 
+.logo-img{
+    height:70px;
+    width:auto;
+    object-fit:contain;
+}
+
 .logo{
     font-size:2rem;
     font-weight:700;
@@ -91,6 +97,19 @@ body{
     color:var(--secondary);
 }
 
+.navbar-toggler{
+    border:1px solid rgba(255,255,255,.5);
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+.navbar-toggler-icon{
+    filter:brightness(0) invert(1);
+}
+
+
 /* ===================================
    HERO
 =================================== */
@@ -117,11 +136,15 @@ body{
 .kategori-card{
     height:100px;
     border-radius:12px;
+
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+
     justify-content:center;
     align-items:center;
-    gap:8px;
+
+    gap:12px;
+
     transition:.3s;
     cursor:pointer;
 }
@@ -130,8 +153,14 @@ body{
     transform:translateY(-4px);
 }
 
+.kategori-icon{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+}
+
 .kategori-card i{
-    font-size:2rem;
+    font-size:3rem;
 }
 
 .kategori-card span{
