@@ -24,10 +24,12 @@
 
                 <!-- Logo -->
                 <div class="col-lg-3 col-md-12 text-center text-lg-start">
-                    <h1 class="logo m-0">
-                        Ruang<span>Craftku</span>
-                    </h1>
-                </div>
+    <a href="#beranda">
+        <img src="{{ asset('assets/images/logo.png') }}"
+             alt="RuangCraftku"
+             class="logo-img">
+    </a>
+</div>
 
                 <!-- Search -->
                 <div class="col-lg-5 col-md-8">
@@ -116,25 +118,31 @@
             <div class="row g-4">
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="kategori-card pola">
-                        <i class="bi bi-flower1"></i>
-                        <span>Pola</span>
-                    </div>
-                </div>
+    <div class="kategori-card pola">
+        <img src="{{ asset('assets/images/tulip.png') }}"
+             alt="Pola"
+             class="kategori-icon">
+        <span>Pola</span>
+    </div>
+</div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="kategori-card kain">
-                        <i class="bi bi-file-earmark"></i>
-                        <span>Kain</span>
-                    </div>
-                </div>
+<div class="col-lg-3 col-md-6">
+    <div class="kategori-card kain">
+        <img src="{{ asset('assets/images/kain.png') }}"
+             alt="Kain"
+             class="kategori-icon">
+        <span>Kain</span>
+    </div>
+</div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="kategori-card alat">
-                        <i class="bi bi-circle"></i>
-                        <span>Alat & Bahan</span>
-                    </div>
-                </div>
+<div class="col-lg-3 col-md-6">
+    <div class="kategori-card alat">
+        <img src="{{ asset('assets/images/benang.png') }}"
+             alt="Alat & Bahan"
+             class="kategori-icon">
+        <span>Alat & Bahan</span>
+    </div>
+</div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="kategori-card craft">
@@ -288,7 +296,9 @@
 
                 <div class="col-lg-8">
                     <h4 class="footer-logo">
-                        Ruang<span>Craftku</span>
+                        <img src="{{ asset('assets/images/logow.png') }}"
+     alt="RuangCraftku"
+     class="logo-img">
                     </h4>
 
                     <p>
@@ -309,13 +319,29 @@
                         dan inspirasi craft.
                     </p>
 
-                    <div class="social-links d-flex gap-3">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-tiktok"></i></a>
-                        <a href="#"><i class="bi bi-youtube"></i></a>
-                    </div>
+                    <div class="social-links d-flex flex-wrap align-items-center gap-3">
 
+    <a href="https://www.facebook.com/ruangcraftkuu/"
+       target="_blank">
+        <i class="bi bi-facebook"></i>
+    </a>
+
+    <a href="https://www.instagram.com/ruangcraftku_official/"
+       target="_blank">
+        <i class="bi bi-instagram"></i>
+    </a>
+
+    <a href="https://www.youtube.com/@ruangcraftkuofficial"
+       target="_blank">
+        <i class="bi bi-youtube"></i>
+    </a>
+
+    <a href="https://wa.me/c/628561793405"
+       target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+</div>
                 </div>
 
             </div>
@@ -432,7 +458,7 @@
         });
     </script>
 
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    
 <!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
